@@ -151,5 +151,10 @@ guide.addEventListener('click', () => {
     }else{
         guide.classList.add("unfolded");
     }
-
-})
+document.getElementById('zaloguj-btn').addEventListener('click', function(event) {
+    event.preventDefault(); // To blokuje odświeżanie strony po kliknięciu
+    
+    // --- TUTAJ WPISZ SWÓJ KOD LOGOWANIA ---
+    console.log("Przycisk działa! Tutaj wpisz akcję logowania.");
+    alert("Kliknięto zaloguj się!"); 
+});
