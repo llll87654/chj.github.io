@@ -151,10 +151,5 @@ guide.addEventListener('click', () => {
     }else{
         guide.classList.add("unfolded");
     }
-document.getElementById('zaloguj-btn').addEventListener('click', function(event) {
-    event.preventDefault();
-    
-    67
-    console.log("Przycisk działa! Tutaj wpisz akcję logowania.");
-    alert("Kliknięto zaloguj się!"); 
-});
+
+})
